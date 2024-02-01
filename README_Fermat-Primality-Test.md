@@ -8,10 +8,13 @@ This foundational principle makes the test a valuable tool in the realms of cryp
 
 Features ✨
 
-Probabilistic Primality Testing: Utilizes a probabilistic approach to quickly identify prime numbers.
-Based on Fermat's Little Theorem: Employs a well-known theorem in number theory to test for primality.
-Fast and Lightweight: Designed to assess numbers for primality with minimal computational resources.
-Customizable Accuracy: Allows the user to balance between testing speed and the level of certainty by adjusting the number of iterations.
+-Probabilistic Primality Testing: Utilizes a probabilistic approach to quickly identify prime numbers.
+
+-Based on Fermat's Little Theorem: Employs a well-known theorem in number theory to test for primality.
+
+-Fast and Lightweight: Designed to assess numbers for primality with minimal computational resources.
+
+-Customizable Accuracy: Allows the user to balance between testing speed and the level of certainty by adjusting the number of iterations.
 
 How It Works 🧐
 

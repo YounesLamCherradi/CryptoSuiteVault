@@ -1,0 +1,16 @@
+# Fermat Primality Test 🚀
+
+## Overview 📖
+
+The Fermat Primality Test is a probabilistic algorithm that determines whether a given number is prime or composite. It is based on Fermat's Little Theorem, which states that if \(p\) is a prime number and \(a\) is any integer not divisible by \(p\), then \(a^{p-1} \equiv 1 \mod p\). This simple yet powerful principle underpins the test, making it a fundamental tool in the field of cryptography and computational number theory for efficiently screening prime numbers with a tunable level of certainty. 🧮💻
+
+## Features ✨
+
+- **Probabilistic Primality Testing:** Utilizes a probabilistic approach to quickly identify prime numbers.
+- **Based on Fermat's Little Theorem:** Leverages a classic theorem in number theory for primality testing.
+- **Fast and Lightweight:** Designed to test numbers for primality with minimal computational overhead.
+- **Customizable Accuracy:** The accuracy of the test can be adjusted by varying the number of iterations, allowing users to trade off between speed and certainty.
+
+## How It Works 🧐
+
+The Fermat Primality Test operates on the principle of Fermat's Little Theorem. For a given number \(n\), the algorithm randomly selects an integer \(a\) (where \(1 < a < n-1\)) and checks if \(a^{n-1} \not\equiv 1 \mod n\). If this congruence fails for any \(a\), \(n\) is composite. If it holds for several choices of \(a\), \(n\) is likely prime. While the test is efficient, it's worth noting that certain numbers, known as Carmichael numbers, can falsely appear prime under this test, highlighting the importance of probabilistic interpretation.

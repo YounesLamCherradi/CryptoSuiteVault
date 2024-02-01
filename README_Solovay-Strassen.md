@@ -7,10 +7,10 @@ This algorithm is a cornerstone in cryptography and computational number theory,
 
 Features ✨
 
-Probabilistic Primality Testing: Employs a probabilistic approach to efficiently determine primality.
-Use of Jacobi Symbols: Utilizes Jacobi symbols to enhance the test's effectiveness, crucial for the algorithm's accuracy.
-Efficiency and Speed: Capable of testing large numbers quickly, making it suitable for cryptographic applications.
-Customizable Accuracy: Users can adjust the test's accuracy by varying the number of iterations.
+-Probabilistic Primality Testing: Employs a probabilistic approach to efficiently determine primality.
+-Use of Jacobi Symbols: Utilizes Jacobi symbols to enhance the test's effectiveness, crucial for the algorithm's accuracy.
+-Efficiency and Speed: Capable of testing large numbers quickly, making it suitable for cryptographic applications.
+-Customizable Accuracy: Users can adjust the test's accuracy by varying the number of iterations.
 
 How It Works 🧐
 

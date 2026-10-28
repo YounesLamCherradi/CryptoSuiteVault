@@ -1,45 +1,173 @@
-# Welcome to PrimeQuest! 🌟🔍
+<div align="center">
 
-## Unraveling the Mysteries of Prime Numbers 🧐🔢
-PrimeQuest is your gateway to the captivating realm of prime numbers and the intricate methods employed to unveil their secrets. Embark on a mathematical odyssey with us as we delve into, implement, and comprehend various primality testing algorithms.
+# PRIMEQUEST
 
-## What Awaits You Inside PrimeQuest? 🔎
-PrimeQuest offers a treasure trove of primality testing knowledge, featuring a diverse collection of algorithms and accompanying content.
+### EXPLORING PRIME NUMBERS & PRIMALITY TESTING
 
-### Explore Various Primality Testing Techniques
-Delve into a myriad of primality testing techniques, each with its unique approach and mathematical charm.
+**MATHEMATICS · ALGORITHMS · CRYPTOGRAPHY**
 
-### Comprehensive Documentation and Explanations
-Discover detailed documentation and explanations for each method. Immerse yourself in the code, peek into their inner workings, and grasp the mathematical wizardry that powers them.
+<img src="https://readme-typing-svg.demolab.com?font=Inter&amp;weight=500&amp;size=19&amp;duration=3500&amp;pause=1100&amp;color=0D9488&amp;center=true&amp;vCenter=true&amp;width=700&amp;height=45&amp;lines=Exploring+the+Mathematics+of+Prime+Numbers;Understanding+Primality+Testing+Algorithms;From+Mathematical+Ideas+to+Practical+Code" alt="Exploring prime numbers, primality testing, and practical implementations" width="700" />
 
-## The Role of Primality Tests in Decryption 🔐
-🔑 Unlocking the Secrets of Cryptography! 🔓
+<br/>
 
-In the realm of cryptography, primality tests play an indispensable role. Prime numbers serve as the cornerstone of secure encryption algorithms, safeguarding sensitive information in the digital age.
+<img src="https://img.shields.io/badge/NUMBER_THEORY-0D9488?style=for-the-badge" alt="Number theory" />
+<img src="https://img.shields.io/badge/ALGORITHMS-0D9488?style=for-the-badge" alt="Algorithms" />
+<img src="https://img.shields.io/badge/CRYPTOGRAPHY-0D9488?style=for-the-badge" alt="Cryptography" />
 
-### Encryption and Key Generation
-Explore the critical role of primality tests in encryption algorithms and cryptographic key generation.
+<br/>
+<br/>
 
-### Digital Signatures and Secure Communication
-Learn how primality tests contribute to the creation of digital signatures, ensuring secure authentication and data integrity in digital transactions. Safeguard confidential information transmitted over networks with primality-tested cryptographic protocols.
+**A learning journey through mathematical reasoning, implementation, and experimentation.**
 
-Join us on an exploration of primality tests, gaining a deeper appreciation for their pivotal role in securing digital communications and transactions.
+</div>
 
-## Embark on the Journey Through PrimeQuest 🚀
-PrimeQuest invites you on a multifaceted journey:
+---
 
-### Algorithmic Explorations 🌌
-Embark on a voyage deep into the mathematics and logic underpinning each primality test. Uncover the elegant principles that drive them.
+## 01 — Overview
 
-### Code Implementations 💻
-Step into the shoes of a mathematician-coder! Explore practical implementations of these algorithms in various programming languages. Learn through hands-on experimentation.
+**PrimeQuest** is an educational project exploring prime numbers and the algorithms used to determine whether a number is prime.
 
-### Comparative Analysis 📊
-Navigate through a sea of algorithms, discerning their performance, efficiency, and suitability under various conditions. Learn when to wield one algorithm over another.
+It connects mathematical explanations with practical implementations, helping learners understand how primality tests work, why different approaches exist, and where they are useful.
 
-### Real-World Impact 🌍
-Discover how primality testing impacts the security of digital communication and data protection in today's interconnected world.
+The project also explores the relationship between prime numbers and cryptography, with particular attention to the role of primality testing in generating suitable parameters for certain cryptographic systems.
 
-Join us in this exploration of prime numbers and the intricate methods used to identify them, while understanding their vital role in the decryption and encryption of sensitive data.
+## 02 — Vision & Purpose
 
-🔍 Happy Learning and Exploring! 🚀
+> **Understand the mathematics. Explore the algorithm. Test the implementation.**
+
+A primality test answers a simple question: **is this integer prime?** The challenge becomes more interesting as the numbers grow and the cost of testing changes.
+
+PrimeQuest encourages learners to move beyond running an algorithm and examine the reasoning behind it.
+
+Its objectives are to:
+
+- Build an understanding of prime numbers and divisibility.
+- Explain the mathematical foundations of primality testing.
+- Connect those foundations with readable implementations.
+- Explore the differences between deterministic and probabilistic approaches.
+- Compare correctness, performance, and computational tradeoffs.
+- Understand relevant applications in cryptography.
+
+## 03 — What You Can Explore
+
+| Area | Learning Focus |
+|---|---|
+| **Mathematical Foundations** | Understand primes, composite numbers, divisibility, and the reasoning behind tests |
+| **Primality Testing Techniques** | Examine different approaches to deciding whether a number is prime |
+| **Algorithm Explanations** | Follow each method’s logic, assumptions, and limitations |
+| **Code Implementations** | Connect mathematical ideas with practical programming |
+| **Comparative Analysis** | Investigate performance and suitability under different conditions |
+| **Cryptographic Context** | Learn why some cryptographic systems require carefully selected prime numbers |
+
+Use the available implementations and documentation as starting points for further reading and experimentation.
+
+## 04 — Understanding Primality Testing
+
+### Mathematical Reasoning
+
+Explore the properties that allow an algorithm to rule out composite numbers or establish primality. Understanding these properties helps explain both an algorithm’s strengths and its limitations.
+
+### Deterministic Approaches
+
+A deterministic test produces a conclusive answer when applied correctly within its stated conditions. Examine how its guarantees relate to the input range and the amount of computation required.
+
+### Probabilistic Approaches
+
+Some tests can identify a number as composite or classify it as a probable prime. Their guarantees depend on the specific algorithm, assumptions, and test parameters.
+
+### Practical Implementation
+
+Correct code must handle boundary cases as well as typical inputs. Numbers below 2 are not prime, and implementations should distinguish primes from composites across the supported input range.
+
+## 05 — Prime Numbers & Cryptography
+
+> **Primality testing helps select suitable numbers; it does not itself decrypt encrypted data.**
+
+Prime numbers have important roles in several cryptographic constructions. Primality tests help establish whether candidate numbers satisfy requirements used during parameter or key generation.
+
+### Encryption & Key Generation
+
+Systems such as RSA use large primes during key generation. Primality testing is one part of that process, alongside secure randomness, appropriate parameters, and other implementation requirements.
+
+### Digital Signatures
+
+Some signature schemes rely on mathematical structures involving prime numbers. Primality testing can support the generation or validation of relevant parameters; signature verification is a separate operation.
+
+### Secure Communication
+
+Cryptographic systems combine multiple mechanisms to provide confidentiality, authentication, and integrity. Primality testing contributes to certain underlying constructions rather than providing those protections on its own.
+
+### Primality Testing Versus Factorization
+
+Determining whether a number is prime is different from finding the factors of a composite number. Recognizing this distinction is important when studying why prime numbers matter in cryptography.
+
+## 06 — A Suggested Learning Path
+
+### 1. Start with the Question
+
+Understand what makes a number prime and how this differs from being composite. Work through small examples before considering large inputs.
+
+### 2. Follow the Explanation
+
+Read the mathematical reasoning for a test. Identify what it guarantees, what assumptions it makes, and which inputs it supports.
+
+### 3. Examine the Code
+
+Trace the implementation using simple inputs. Connect each major operation with the mathematical idea it represents.
+
+### 4. Experiment with Cases
+
+Try primes, composites, boundary values, and inputs that challenge a method’s assumptions. Compare results with known examples.
+
+### 5. Compare Approaches
+
+Explore how execution time and computational effort change with input size. Consider the strength of the result as well as speed.
+
+### 6. Connect the Findings
+
+Relate what you learn to cryptographic key generation and other applications of number theory.
+
+## 07 — Comparing Algorithms Thoughtfully
+
+Performance is only one part of evaluating a primality test.
+
+| Criterion | Questions to Ask |
+|---|---|
+| **Correctness** | Does the implementation return the expected results across its supported inputs? |
+| **Guarantees** | Is the result conclusive or probabilistic, and under what conditions? |
+| **Input Size** | How does the method behave as the number of input digits or bits increases? |
+| **Efficiency** | What computation and memory does it require? |
+| **Edge Cases** | How does it handle small values, repeated factors, and difficult composites? |
+| **Reproducibility** | Are the inputs, parameters, and measurement conditions clearly recorded? |
+| **Suitability** | Is the method appropriate for learning, experimentation, or the intended application? |
+
+A fair comparison explains the testing conditions and avoids treating one result as proof that an algorithm is always faster or better.
+
+## 08 — Learning & Experimentation
+
+PrimeQuest is intended to encourage curiosity and hands-on exploration.
+
+You can use the project to:
+
+- Study the reasoning behind different tests.
+- Explore the available implementations.
+- Add examples that make explanations easier to follow.
+- Investigate unusual or challenging inputs.
+- Document comparisons and observations.
+- Connect algorithmic ideas with broader topics in number theory.
+
+Educational implementations should not be assumed suitable for protecting real-world secrets. Practical cryptographic systems require established libraries and careful security engineering beyond a primality test alone.
+
+---
+
+<div align="center">
+
+### PRIMEQUEST
+
+**EXPLORE · IMPLEMENT · UNDERSTAND**
+
+*Discover the reasoning behind prime numbers and the algorithms that test them.*
+
+<img src="https://img.shields.io/badge/KEEP_EXPLORING-0D9488?style=for-the-badge" alt="Keep exploring" />
+
+</div>
